@@ -48,7 +48,7 @@ def start_detection():
     faceNet = cv.dnn.readNet(faceModel,faceProto)
 
     # Open a video file or an image file or a camera stream
-    cap = cv.VideoCapture(args.i if args.i else 0)
+    cap = cv.VideoCapture(0)
     padding = 20
     while cv.waitKey(1) < 0:
         # Read frame
