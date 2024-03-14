@@ -1,8 +1,7 @@
+import threading
 import tkinter as tk
 from functools import partial
 from tkinter import ttk
-from PIL import ImageTk, Image
-import threading
 
 from aiMouse import aiMouse
 from gender_age import start_detection  # Importez la fonction depuis gender_age.py

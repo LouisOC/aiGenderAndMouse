@@ -2,7 +2,6 @@ import cv2
 import mediapipe as mp
 import pyautogui
 
-
 def aiMouse():
     cap = cv2.VideoCapture(0)
     hand_detector = mp.solutions.hands.Hands()
